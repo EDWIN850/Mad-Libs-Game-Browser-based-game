@@ -20,4 +20,4 @@ resetBtn.onclick = reset
 
 
 /*-------------------------------- Functions --------------------------------*/
-
+function getGameReady()
