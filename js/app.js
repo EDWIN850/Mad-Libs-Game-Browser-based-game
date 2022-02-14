@@ -16,7 +16,7 @@ let pluralNoun = prompt("Enter a plural noun");
 
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+resetBtn.onclick = reset 
 
 
 /*-------------------------------- Functions --------------------------------*/
