@@ -7,10 +7,11 @@ let noun = prompt("Enter a noun; number");
 let noun = prompt("Enter a noun");
 let adjective = prompt("Enter a adjective");
 let noun = promt("Enter a noun");
-let adjective = promt("Enter a Adjective");
-let adjective = promt("Enter a Adjective");
-let adjective = promt("Enter a Adjective");
-let adjective = promt("Enter a Adjective");
+let adjective = promt("Enter a adjective");
+let adjective = promt("Enter a adjective");
+let adjective = promt("Enter a adjective");
+let adjective = promt("Enter a adjective");
+let noun = promt("Enter a noun");
 
 
 
