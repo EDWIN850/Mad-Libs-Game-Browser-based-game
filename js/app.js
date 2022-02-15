@@ -3,11 +3,11 @@
 
 
 /*---------------------------- Variables (state) ----------------------------*/
-let verb = prompt("Enter a present tense verb");
-let adjective = prompt("Enter a adjective");
 let noun = prompt("Enter a noun; number");
-let pluralNoun = prompt("Enter a plural noun");
-let Summer = prompt("Something you do in the summer")
+let noun = prompt("Enter a noun");
+let adjective = prompt("Enter a adjective");
+let noun = promt("Enter a noun");
+
 
 
 
