@@ -12,6 +12,8 @@ let adjective = promt("Enter a adjective");
 let adjective = promt("Enter a adjective");
 let adjective = promt("Enter a adjective");
 let noun = promt("Enter a noun");
+let verb = prompt("Enter a verb");
+let noun;typeoffood = prompt("Enter a noun; type of food");
 
 
 
