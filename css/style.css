@@ -6,4 +6,5 @@ html{
 body {
   background-color: lemonchiffon;
   background-image: linear-gradient(315deg, blue 30%, orange 65%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
