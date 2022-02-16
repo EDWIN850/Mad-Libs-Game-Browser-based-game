@@ -31,13 +31,6 @@ resetBtn.onclick = reset
 
 
 /*-------------------------------- Functions --------------------------------*/
-function getGameReady()
-function render() {
-	renderHands();
-	renderControls();
-	if (winner) {
-		renderWinnerMessage();
-	} else {
-		renderTurnMessage();
-	}
+const submitMadLibs = (event) => {
+  alert('HELLO!');
 }
