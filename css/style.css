@@ -36,7 +36,11 @@ h1, h2, h3{
 }
 
 form section{
-  padding: 0 5% ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 5%;
   margin-top: 20px;
 }
 
@@ -49,5 +53,59 @@ form section{
 .input-group input[type="text"]{
   height: 30px;
   width: 250px;
- border-radius: 20px;
+  border: 1px solid #db8f14e0;
+  border-radius: 20px;
+  box-shadow: #db8f14e0;
+  padding-left: 10px;
+  margin: 3px 0 10px;
+
+}
+
+.center{
+  text-align: center;
+}
+
+#MadLibs-submit button,
+#MadLibs-reset {
+  height: 40px;
+  width: 250px;
+  background-color: aqua;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  box-shadow: orange ;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#completed-story{
+  padding: 0 5%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.inserted-text{
+  border-bottom: 3 px solid orangered;
+  font-weight:700;
+  background-color: antiquewhite;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  h2{
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  .container{
+    max-width: 100%;
+    max-height: 85vh;
+  }
 }
