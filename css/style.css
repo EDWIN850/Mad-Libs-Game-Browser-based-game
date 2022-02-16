@@ -9,8 +9,8 @@ body {
   display: flex;
   align-items: center;
   overflow-y: hidden;
-  background: rgb(223, 204, 37);
-  background: linear-gradient(135deg, rgb(224, 138, 25) 45%, rgb(203, 230, 52) 60%);
+  background: rgb(194, 180, 52);
+  background: linear-gradient(135deg, rgb(240, 162, 60) 45%, rgb(192, 223, 21) 60%);
 
 }
 
@@ -107,5 +107,13 @@ form section{
   .container{
     max-width: 100%;
     max-height: 85vh;
+  }
+
+  .input-group{
+    margin: 5px;
+  }
+
+  #completed-story{
+    font-size: .75rem;
   }
 }

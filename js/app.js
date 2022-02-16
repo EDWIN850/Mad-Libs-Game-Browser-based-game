@@ -1,19 +1,20 @@
 /*-------------------------------- Constants --------------------------------*/
+const MadLibsForm = document.getElementById('MadLibs-form');
+const storySection = document.getElementById('completed-story');
 
-
-
+const submitMadLibs =(event) 
 /*---------------------------- Variables (state) ----------------------------*/
-let noun = prompt("Enter a noun; number");
-let noun = prompt("Enter a noun");
-let adjective = prompt("Enter a adjective");
-let noun = promt("Enter a noun");
-let adjective = promt("Enter a adjective");
-let adjective = promt("Enter a adjective");
-let adjective = promt("Enter a adjective");
-let adjective = promt("Enter a adjective");
-let noun = promt("Enter a noun");
-let verb = prompt("Enter a verb");
-let nountypeoffood = prompt("Enter a noun; type of food");
+let noun = ("Enter a noun; number");
+let noun = ("Enter a noun");
+let adjective = ("Enter a adjective");
+let noun = ("Enter a noun");
+let adjective = ("Enter a adjective");
+let adjective = ("Enter a adjective");
+let adjective = ("Enter a adjective");
+let adjective = ("Enter a adjective");
+let noun = ("Enter a noun");
+let verb = ("Enter a verb");
+let nountypeoffood = ("Enter a noun; type of food");
 
 
 
