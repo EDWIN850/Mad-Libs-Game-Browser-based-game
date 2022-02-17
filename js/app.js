@@ -16,7 +16,7 @@ Summer is a(n) <span class="inserted-text">${userSubmission.adjective4} </span>
 time of the year, when the days are <span class="inserted-text">${userSubmission.adjective5}</span> and the
 <span class="inserted-text">${userSubmission.noun4}</span>  <span class="inserted-text">${userSubmission.verb}</span>s in the sky all day long. 
  One of the most popular summmer treats is ice <span class="inserted-text">${userSubmission.noun5}</span>
- with <span class="inserted-text">${userSubmission.noun6}</span> gallons sold each year./p> `;
+ with <span class="inserted-text">${userSubmission.noun6}</span> gallons sold each year. `
 
  storySection.innerHTML += story;
  storySection.classList.remove('hide');
@@ -28,16 +28,13 @@ time of the year, when the days are <span class="inserted-text">${userSubmission
 
 
 /*------------------------ Cached Element References ------------------------*/
-const button1 = document.querySelector("#button1");
-const button2 = document.querySelector("button2");
-const button3 = document.querySelector("#button3");
-const button4 = document.querySelector("#button4");
+
 
 
 /*----------------------------- Event Listeners -----------------------------*/
 MadLibsForm.addEventListener("submit", function (evt) {
   evt.preventDefault()
-  console.log(evt)
+  
 })
 
 
