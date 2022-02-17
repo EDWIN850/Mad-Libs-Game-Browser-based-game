@@ -57,7 +57,16 @@ const submitMadLibs = (event) => {
   userSubmission.noun2 = noun2Input.value
   userSubmission.adjective1 = adjective1Input.value
   userSubmission.noun3 = noun3Input.value
+  userSubmission.adjective2 = adjective2Input.value 
+  userSubmission.adjective3 = adjective3Input.value
+  userSubmission.adjective4 = adjective4Input.value
+  userSubmission.adjective5 = adjective5Input.value
+  userSubmission.noun4 = noun4Input.value
+  userSubmission.verb = verbInput.value
+  userSubmission.noun5 = noun5Input.value
+  userSubmission.noun6 = noun6Input.value
   
+
 
 
 } 
