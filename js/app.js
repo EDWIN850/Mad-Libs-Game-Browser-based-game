@@ -41,4 +41,4 @@ const submitMadLibs = (event) => {
   alert('Hey!');
   event.preventDefault();
   MadLibsForm
-}
+}) 
