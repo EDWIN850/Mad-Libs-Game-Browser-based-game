@@ -28,12 +28,21 @@ time of the year, when the days are <span class="inserted-text">${userSubmission
 
 
 /*------------------------ Cached Element References ------------------------*/
-
-
-
+const noun1Input = document.getElementById("noun1")
+const noun2Input = document.getElementById("noun2")
+const adjective1Input = document.getElementById("adjective1")
+const noun3Input = document.getElementById("noun3")
+const adjective2Input = document.getElementById("adjective2")
+const adjective3Input = document.getElementById("adjective3")
+const adjective4Input = document.getElementById("adjective4")
+const adjective5Input = document.getElementById("adjective5")
+const noun4Input = document.getElementById("noun4")
+const verbInput = document.getElementById("verb")
+const noun5Input = document.getElementById("noun5")
+const noun6Input = document.getElementById("noun6")
 /*----------------------------- Event Listeners -----------------------------*/
 MadLibsForm.addEventListener("submit", function (evt) {
-  evt.preventDefault()
+  evt.preventDefault() 
   
 })
 
@@ -44,3 +53,5 @@ const submitMadLibs = (event) => {
   event.preventDefault();
   MadLibsForm.classList.add('hide');
 }
+
+noun1Input.value 
