@@ -43,15 +43,36 @@ const noun6Input = document.getElementById("noun6")
 /*----------------------------- Event Listeners -----------------------------*/
 MadLibsForm.addEventListener("submit", function (evt) {
   evt.preventDefault() 
-  
+  console.log("hello")
+  submitMadLibs()
 })
 
 
 /*-------------------------------- Functions --------------------------------*/
-const submitMadLibs = (event) => {
-  alert('Hey!');
-  event.preventDefault();
-  MadLibsForm.classList.add('hide');
-}
 
-noun1Input.value 
+const submitMadLibs = (event) => {
+  //event.preventDefault();
+  MadLibsForm.classList.add('hide');
+  userSubmission.noun1 = noun1Input.value
+  userSubmission.noun2 = noun2Input.value
+  userSubmission.adjective1 = adjective1Input.value
+  userSubmission.noun3 = noun3Input.value
+  
+
+
+} 
+
+// noun1Input.value 
+// noun2Input.value
+// adjective1Input.value
+// noun3Input.value
+// adjective2Input.value
+// noun3Input.value
+// adjective2Input.value
+// adjective3Input.value 
+// adjective4Input.value
+// adjective5Input.value
+// noun4Input.value
+// verbInput.value
+// noun5Input.value
+// noun6Input.value
