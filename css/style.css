@@ -1,17 +1,15 @@
 html{
-  height: 100%
+  height: 100%;
 }
 
-
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
   height: 100%;
+  overflow-y: hidden;
+  background: rgb(247, 247, 37);
+  background: linear-gradient(135deg, rgba(131,234,241,1) 9%, rgb(218, 160, 15) 99%);
+  font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
-  overflow-y: hidden;
-  background: rgb(194, 180, 52);
-  background: linear-gradient(135deg, rgb(240, 162, 60) 45%, rgb(192, 223, 21) 60%);
-
 }
 
 .container{
@@ -21,10 +19,10 @@ body {
   min-height: 60vh;
   max-height: 90vh;
   padding: 30px 0;
-  background-color: blue;
+  background-color: rgba(255,255,255,.6 );
   border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   overflow-y: auto;
-
 }
 
 h1, h2, h3{
@@ -44,39 +42,43 @@ form section{
   margin-top: 20px;
 }
 
-.input-group{
+.input-group {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
 
-.input-group input[type="text"]{
+.input-group label{
+  padding-left: 10px;
+}
+
+.input-group input[type="text"] {
   height: 30px;
   width: 250px;
-  border: 1px solid #db8f14e0;
+  border: 1px solid #edede8;
   border-radius: 20px;
-  box-shadow: #db8f14e0;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
   padding-left: 10px;
   margin: 3px 0 10px;
-
 }
 
 .center{
   text-align: center;
 }
 
-#MadLibs-submit button,
-#MadLibs-reset {
+
+#madlibs-submit button, 
+#madlibs-reset {
   height: 40px;
   width: 250px;
-  background-color: aqua;
+  background-color: #83eaf1;
   border-radius: 20px;
   border: none;
   padding: 10px;
-  box-shadow: orange ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .hide {
@@ -85,35 +87,36 @@ form section{
 
 #completed-story{
   padding: 0 5%;
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   line-height: 2;
 }
 
 .inserted-text{
-  border-bottom: 3 px solid orangered;
-  font-weight:700;
-  background-color: antiquewhite;
+  border-bottom: 3px solid #63A4FF;
+  font-weight: 700;
+  background-color: white;
   padding: 0 5px;
   margin: 0 5px;
 }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 600px) {
   h2{
-    font-size: 1rem;
-    margin-top: 5px;
+      font-size: 1em;
+      margin-top: 5px;
   }
   .container{
-    max-width: 100%;
-    max-height: 85vh;
+      max-width: 100%;
+      max-height: 85vh;
   }
 
-  .input-group{
-    margin: 5px;
+  .input-group {
+      margin: 5px;
   }
 
   #completed-story{
-    font-size: .75rem;
+      font-size: .75em;
   }
 }
