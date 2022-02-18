@@ -8,7 +8,7 @@ let userSubmission = {}
 const story = `
 <h3>Your completed story:</h3>
 <p>Summer is one of the  <span class="inserted-text">${userSubmission.noun1}</span> seasons. 
-The other three seasons are <span class="inserted-text">${userSubmission.noun2}</span>, and <span class="inserted-text">${userSubmission.adjective1}</span>
+The other three seasons are <span class="inserted-text">${userSubmission.noun2}</span>, <span class="inserted-text">${userSubmission.adjective1}</span> and
 <span class="inserted-text"> ${userSubmission.noun3}</span>.
 Two major U.S. summer holidays are <span class="inserted-text">${userSubmission.adjective2}</span> Day
 and <span class="inserted-text">${userSubmission.adjective3}</span> Day.
