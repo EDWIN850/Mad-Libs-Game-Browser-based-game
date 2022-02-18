@@ -51,7 +51,7 @@ MadLibsForm.addEventListener("submit", function (evt) {
 /*-------------------------------- Functions --------------------------------*/
 
 const submitMadLibs = (event) => {
-  //event.preventDefault();
+  
   MadLibsForm.classList.add('hide');
   userSubmission.noun1 = noun1Input.value
   
